@@ -1,0 +1,6 @@
+streamlit>=1.30.0
+requests
+python-dotenv
+langchain>=0.1.0
+pydantic
+groq
