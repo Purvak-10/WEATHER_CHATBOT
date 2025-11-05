@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from typing import List, Dict, Any, Optional, Union, Literal
 
 from pydantic import BaseModel, field_validator
-from langchain import LLMChain, PromptTemplate
+# from langchain import LLMChain, PromptTemplate
 # from langchain_community.llms import Ollama
 
 from groq import Groq
@@ -121,10 +121,10 @@ User message:
 {user_input}
 """
 
-intent_template = PromptTemplate(
-    input_variables=["user_input"],
-    template=INTENT_CITY_PROMPT
-)
+# intent_template = PromptTemplate(
+#     input_variables=["user_input"],
+#     template=INTENT_CITY_PROMPT
+# )
 
 
 # # Intent & City Extraction (with fallback)
