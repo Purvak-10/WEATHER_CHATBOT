@@ -3,4 +3,7 @@ requests
 python-dotenv
 langchain>=0.1.0
 pydantic
-groq
+langchain==0.1.20
+langchain-core==0.1.30
+langchain-community==0.0.28
+langchain-groq
