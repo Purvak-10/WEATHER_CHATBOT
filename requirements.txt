@@ -1,9 +1,9 @@
-streamlit>=1.30.0
+streamlit==1.32.0
 requests
 python-dotenv
-langchain>=0.1.0
-pydantic
+pydantic==2.6.1
+groq
 langchain==0.1.20
-langchain-core==0.1.30
-langchain-community==0.0.28
-langchain-groq
+langchain-core==0.1.40
+langchain-community==0.0.40
+langchain-groq==0.1.3
