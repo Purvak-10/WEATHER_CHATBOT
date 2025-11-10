@@ -5,7 +5,7 @@ import re
 from dotenv import load_dotenv
 from typing import List, Optional, Literal
 from pydantic import BaseModel, field_validator
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_groq import ChatGroq   
 
